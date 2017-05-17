@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Gym - Personal Training</title>
+	<link href="css/jquery.bxslider.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+  	<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+</head>
+<body>
+	<header>
+		<div id="header-inner">
+			<a href="index.html" id="logo"></a>
+		</div>
+		<hav>
+			<a href="#" id="menu-icon"></a>
+			<ul>
+				<li><a href="#" class="current">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Facility</a></li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</hav>
+	</header>
+
+<!--- Start Slider -->
+		<script src="js/jquery.bxslider.min.js"></script><!--For Image Slider-->
+
+		<div class="slide-wrap">
+			<section class="slider">
+				<ul class="slider1">
+					<li><img src="https://w3newbie.com/wp-content/uploads/chest-fly.png" alt="Chest Fly"></li>
+					<li><img src="https://w3newbie.com/wp-content/uploads/push-ups.png" alt="Push Ups"></li>
+					<li><img src="https://w3newbie.com/wp-content/uploads/inside-gym.png" alt="Gym Interior"></li>
+					<li><img src="https://w3newbie.com/wp-content/uploads/training.png" alt="Training"></li>
+				</ul>
+			</section>
+		</div>
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+<!--- End Slider -->
+<div class="clearfix"></div>
+	<div id="inner-wrapper">
+		<section class="one-third">
+			<div class="circle">
+				<td><i class="fa fa-users"></i></td>
+				<h3>Grade A Staff</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus harum architecto dolores repellendus! Expedita cumque maxime odio doloremque aliquam quos aperiam illo, dolore nisi, voluptas commodi deleniti, itaque recusandae quod.</p>
+			</div>
+		</section>
+		<section class="one-third">
+			<div class="circle">
+				<td><i class="fa fa-map-marker"></i></td>
+			</div>
+			<h3>A Convenient Location</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora nobis ducimus esse aut consequatur commodi dolore, dolorum deleniti, sint, nemo nulla beatae, modi in consequuntur ex ea facere alias laudantium!</p>
+		</section>
+		<section class="one-third">
+			<div class="circle">
+				<td><i class="fa fa-check-square-o"></i></td>
+				<h3>Check Us Out - Free!</h3>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quibusdam error a obcaecati cumque corporis veritatis, quos esse architecto nobis quis similique non iste, vitae eius ipsa sint laboriosam. Omnis.</p>
+			</div>
+		</section>
+		<div class="clearfix"></div>
+		<article>
+			<img src="https://w3newbie.com/wp-content/uploads/gym-classes.png" alt="Gym Classes" class="circle-image">
+		</article>
+		<aside>
+			<h3>Our Facilty</h3>
+			<br>
+			<ul class="gym">
+				<li><h4>Unlimted Wifi Connection</h4></li>
+				<li><h4>Member Music Requests</h4></li>
+				<li><h4>Open 24 Hours / 7 Days a Week</h4></li>
+				<li><h4>Cardio Machine Movie Theater</h4></li>
+			</ul>
+		</aside>
+		<div class="clearfix"></div>
+		<section class="one-third">
+			<h3>Ladies Section</h3>
+			<img src="https://w3newbie.com/wp-content/uploads/ladies-gym.jpg" alt="Ladies Gym">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel laborum nam fugit sunt quod sed libero doloremque eligendi veritatis asperiores iusto modi cumque, in eum laudantium porro officiis impedit, a!</p>
+		</section>
+		<section class="one-third">
+			<h3>The Gym Floor</h3>
+			<img src="https://w3newbie.com/wp-content/uploads/gym-floor.jpg" alt="">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam nesciunt rem est quae quasi eius similique natus, provident assumenda ex, facilis blanditiis dignissimos perspiciatis eaque iusto quo ullam animi aspernatur.</p>
+		</section>
+		<section class="one-third">
+			<h3>Free Weights</h3>
+			<img src="https://w3newbie.com/wp-content/uploads/free-weights.jpg" alt="Free Weights">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias nostrum, voluptate non quidem, minus deserunt commodi, rem tempore voluptates consectetur vel aut quae pariatur tempora nobis rerum. Voluptatum earum, consequuntur.</p>
+		</section>
+	</div><!--inner-wrapper-->
+	<div class="clearfix"></div>
+	<footer>
+		<div class="footer inner">
+			<section id="footer-third" class="one-third">
+				<h3>Contact</h3>
+				<p class="footercontact">The Gym<br>
+				<b class="phone">555-525-5005</b><br><br>
+				500 W Washington Rd<br>
+				Seattle, WA 98101<br></p>
+			</section>
+			<section class="one third" id="footer-third">
+				<h3>Social</h3>
+				<br>
+				<ul>
+					<li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://plus.google.com/" target="_blank"><i class="fa fa-google"></i></a></li>
+					<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="https://youtube.com/" target="_blank"><i class="fa fa-youtube"></i></a></li>
+				</ul>
+			</section>
+			<section class="one-third" id="footer-third-last">
+				<h3>Pages</h3>
+				<br>
+				<h5>
+					<a href="index.html">Home</a>-
+					<a href="#">About</a>-
+					<a href="#">Facility</a>-
+					<a href="#">Pricing</a>-
+					<a href="#">Comtact</a>
+				</h5>
+			</section>
+		</div>
+	</footer>
+	<footer class="second">
+		<p>&copy; The Gym 2017</p>
+	</footer>
+</body>
+</html>
